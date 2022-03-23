@@ -66,6 +66,12 @@ header .nav-btn{
 }
 
 @media (max-width: 1024px) {
+
+    header{
+   
+        padding: 0 2rem 0 6rem;
+
+    }
  
 
     header nav{
@@ -105,6 +111,16 @@ header .nav-btn{
     }
 
     
+}
+
+
+@media (max-width: 600px){
+
+    header{
+   
+        padding: 0 2rem 0 2rem;
+
+    }
 }
 
 

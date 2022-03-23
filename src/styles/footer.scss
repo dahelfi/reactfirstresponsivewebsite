@@ -2,7 +2,7 @@
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     padding-left: 160px;
-    padding-right: 160px;
+    padding-right:160px;
     height: 80px;
     display: flex;
     align-items: center;
@@ -43,4 +43,45 @@
         margin-right: 16px;
     }
 
+}
+
+@media(max-width: 1024px){
+    .footer-section{
+  
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+
+
+}
+
+
+@media(max-width: 800px){
+    .footer-section{
+  
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+
+}
+
+@media(max-width: 600px){
+    .logo-section{
+        display: none;
+    }
+
+    .icons-section{
+
+        img{
+            height: 30px;
+            width: 30px;
+            object-fit: contain;
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+    
+    }
 }
